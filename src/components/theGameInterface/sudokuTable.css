@@ -1,0 +1,122 @@
+* {
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #282c34;
+  color: white;
+}
+h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.heder {
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+.cellInput {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid white;
+  opacity: 0.8;
+}
+
+.cellInput:hover {
+  cursor: pointer;
+  opacity: 2;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px solid black;
+}
+
+input[type="text"]:disabled {
+  background: rgba(172, 255, 47, 0.381);
+}
+
+.buttonsContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.rowBorder {
+  border-bottom: 3px solid black;
+}
+
+.colBorder {
+  border-right: 3px solid black;
+}
+
+.soleButton {
+  padding: 12px 20px;
+  background-color: greenyellow;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #282c34;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.resetButton {
+  padding: 12px 25px;
+  background-color: red;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #282c34;
+  margin: 15px;
+  cursor: pointer;
+}
+.checkButton {
+  padding: 12px 20px;
+  background-color: yellow;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #282c34;
+  margin: 15px;
+  cursor: pointer;
+}
+
+.createButton {
+  padding: 12px 20px;
+  background-color: wheat;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #282c34;
+  margin: 15px;
+  cursor: pointer;
+}
+
+/* .tools {
+  display: flex;
+  justify-content: center;
+} */
+
+.EraseButton,
+.HintButton,
+.difficultySelect {
+  padding: 10px 18px;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #282c34;
+  margin: 15px;
+  cursor: pointer;
+}
